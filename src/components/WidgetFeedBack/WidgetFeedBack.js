@@ -1,5 +1,3 @@
-//import React, { Component } from 'react';
-
 import { useState } from 'react';
 
 import variants from 'data/variants.json';
@@ -21,28 +19,6 @@ const WidgetFeedBack = () => {
 
   const [valueBad, setBadValue] = useState(0);
 
-  /*setGoodValue = valueGood => {
-    valueGood += 1;
-    this.state.good = valueGood;
-    return valueGood;
-  };
-
-  setNeutralValue = valueNeutral => {
-    valueNeutral += 1;
-    this.state.neutral = valueNeutral;
-    return valueNeutral;
-  };
-
-  setBadValue = valueBad => {
-    valueBad += 1;
-    this.state.bad = valueBad;
-    return valueBad;
-  };
-  const state = {
-    good:0,
-    neutral: 0,
-    bad: 0,
-  };*/
   const changeState = option => {
     switch (option) {
       case 'good':
